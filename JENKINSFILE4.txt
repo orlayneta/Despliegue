@@ -20,13 +20,9 @@ pipeline {
             steps {
                 bat 'echo Deploying build'
 
+                bat 'echo Hola Mundo'
 
-                sh 'git clone https://github.com/orlayneta/activemq.git'
-
-
-
-
-               }
+              }
 
         }
         stage('Regression tests') {
